@@ -30,7 +30,7 @@ function Register() {
       error: <b>Couldnt Register</b>
 
      })
-       console.log(values)
+      //  console.log(values)
        registerPromise.then(function(){navigate('/')})
     }
     

@@ -48,7 +48,6 @@ export async function registerUser(credentials){
          password:credentials.password,
          profile:credentials.profile
       }).catch((err)=>console.log(err))  
-       console.log(data)
       let {username,email} = credentials
 
       if(status === 201){
